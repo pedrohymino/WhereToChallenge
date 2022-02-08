@@ -144,8 +144,14 @@ $primary: #19E68C;
       }
     }
 
-    tr:last-child {
-      td {border: none;}
+    tr {
+      &:last-child {
+        td {border: none;}
+      }
+
+      &:hover{
+        background: rgba($primary,0.1);
+      }
     }
   }
 

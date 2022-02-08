@@ -28,7 +28,7 @@ const CoverList = (props: ICoverList) => {
   }
 
   useEffect(() => {
-    if (albums.length) {
+    if (albums?.length) {
       onChange(albumSelected)
     }
   },[albums]);

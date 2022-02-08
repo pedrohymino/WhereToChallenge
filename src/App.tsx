@@ -23,7 +23,6 @@ const App = () => {
 
   return (
     <div>
-      <pre>{JSON.stringify(albums)}</pre>
       <CoverList loading={loading} albums={albums} fetchUrl={fetchUrl}/>
     </div>
   );
